@@ -1,25 +1,25 @@
-# 🍬 Şekerli Hesap: AI-Powered Financial Navigation System
+# 🍬 Sugar Finance (Şekerli Hesap): AI-Powered Financial Navigation System
 
 [![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)](https://flutter.dev)
 [![Gemini AI](https://img.shields.io/badge/Gemini%20AI-8E75B2.svg?style=for-the-badge&logo=google-gemini&logoColor=white)](https://deepmind.google/technologies/gemini/)
-[![Security](https://img.shields.io/badge/Security-Locked-success.svg?style=for-the-badge&logo=cloudera&logoColor=white)](#-siber-güvenlik-analizi)
+[![Security](https://img.shields.io/badge/Security-Audit--Passed-success.svg?style=for-the-badge&logo=cloudera&logoColor=white)](#-cybersecurity-analysis)
 
-**Şekerli Hesap**, özellikle şahıs şirketleri ve küçük işletmelerin finansal karmaşasını çözen, yapay zeka destekli bir "Algoritmik Muhasebe" ve kâr analiz motorudur.
+**Sugar Finance** is an "Algorithmic Accounting" and profit analysis engine designed to solve financial complexity for sole proprietorships and small businesses. Powered by **Google Gemini AI**.
 
 ---
 
-## 📱 Uygulama Görünümleri
+## 📱 App Preview
 
 <div align="center">
   <table border="0">
     <tr>
       <td width="50%" align="center">
-        <img src="main_screen.jpg" alt="Ana Sayfa" width="250px"/><br>
-        <b>Finansal Özet & Takip</b>
+        <img src="main_screen.jpg" alt="Dashboard" width="250px"/><br>
+        <b>Financial Overview & Tracking</b>
       </td>
       <td width="50%" align="center">
-        <img src="analysis.jpg" alt="AI Analiz" width="250px"/><br>
-        <b>Gemini AI Stratejik Rapor</b>
+        <img src="analysis.jpg" alt="AI Analysis" width="250px"/><br>
+        <b>Gemini AI Strategic Insights</b>
       </td>
     </tr>
   </table>
@@ -27,33 +27,36 @@
 
 ---
 
-## 🎯 Çözülen Temel Sorun
-Küçük esnafların yaşadığı en büyük sorun olan **"Ciro vs. Net Kâr"** ayrımını netleştirir. Uygulama; KDV, stopaj, Bağkur, gelir vergisi ve operasyonel maliyetleri otomatik hesaplayarak kullanıcıya gerçek "Net Birim Kâr" ve **ROI (Yatırım Getirisi)** verilerini sunar.
+## 🎯 Problem Statement
+Most small business owners confuse revenue (total cash flow) with net profit. Calculating the "Real Net Profit" is challenging due to VAT (KDV), withholding taxes (stopaj), income tax reserves, and operational overhead. 
 
-## 🛠️ Teknik Mimari
-* **Engine:** Flutter & Dart (Native performans).
-* **State Management:** `ChangeNotifier` ve `ListenableBuilder` ile dinamik arayüz yönetimi.
-* **AI Katmanı:** `Gemini Flash-Latest` modeli ile finansal veri analizi ve yönetici özeti.
-* **Veri Görselleştirme:** `fl_chart` ile karmaşık finansal verilerin (PieChart/BarChart) görselleştirilmesi.
-* **Hibrit Depolama:** Genel ayarlar için `shared_preferences`, kritik API anahtarları için `flutter_secure_storage` (Keystore/Keychain).
+**The Solution:** Sugar Finance automatically deducts all legal and operational shares from every sale. It provides professional **KPIs** such as **ROI (Return on Investment)**, **Gross Margin**, and **Net Unit Profit** as if you had a dedicated CFO.
 
-## 🔒 Siber Güvenlik Uzmanı Gözüyle Analiz
-Proje geliştirilirken profesyonel siber güvenlik standartları göz önünde bulundurulmuştur:
+## 🛠️ Technical Architecture
+* **Framework:** Flutter & Dart for high-performance cross-platform experience.
+* **State Management:** `ChangeNotifier` & `ListenableBuilder` for reactive UI updates.
+* **Intelligence Layer:** Integrated with `Gemini Flash-Latest` via `google_generative_ai` for executive summaries and strategic advice.
+* **Data Visualization:** `fl_chart` for rendering complex weekly profit flows and financial distributions.
+* **Hybrid Storage:** * `shared_preferences` for general settings.
+    * `flutter_secure_storage` (Keystore/Keychain) for sensitive API credentials.
 
-* **Disk Üstünde Veri Güvenliği:** `shared_preferences` üzerindeki plain-text riskine karşı kritik ticari verilerin şifrelenmesi kurgulanmıştır.
-* **Biyometrik Katman:** Ticari sırların korunması için `local_auth` (FaceID/Parmak İzi) entegrasyonu planlanmıştır.
-* **Tersine Mühendislik Savunması:** Kodun decompile edilmesini zorlaştırmak adına **Obfuscation** (Kod Gizleme) teknikleri uygulanmıştır.
-* **Input Sanitization:** JSON veri ithalatı sırasında "Schema Validation" uygulanarak injection riskleri minimize edilmiştir.
+## 🔒 Cybersecurity Analysis (Aspirant Perspective)
+The system is built with a "Security-by-Design" approach, focusing on the following vulnerability assessments:
 
-## 📊 Öne Çıkan Fonksiyonlar
-- **Dinamik Gider Motoru:** Muhasebe ücretinden stopaja kadar tüm yasal kesintilerin anlık hesaplanması.
-- **KPI Dashboard:** Brüt marj ve net kâr oranlarının profesyonel metriklerle sunulması.
-- **AI Asistan:** Verilerinizi analiz ederek işletmenizin verimliliğini artıracak tavsiyeler veren entegre yapay zeka.
+* **Data-at-Rest Protection:** Identified risks regarding plain-text storage in `shared_preferences`. Future roadmap includes **AES-256 encryption** for sensitive financial records.
+* **Physical Access Security:** Proposed integration of `local_auth` (Biometric FaceID/Fingerprint) to protect commercial secrets from unauthorized physical access.
+* **Reverse Engineering Defense:** Deployment of **Code Obfuscation** techniques during the build process to protect the proprietary logic in `gemini_service.dart`.
+* **Input Sanitization:** Implementation of strict **Schema Validation** for JSON data imports to prevent logic-based attacks or crashes.
 
----
-
-### 👨‍💻 Geliştirici
-**Recep** *Software Development Student & Cybersecurity Aspirant*
+## 📊 Key Features
+- **Dynamic Tax Engine:** Instant calculation of VAT, withholding tax, and social security (Bağkur) fees.
+- **AI Financial Consultant:** An integrated AI that analyzes your data to suggest efficiency improvements.
+- **Detailed Analytics:** Professional financial metrics displayed through intuitive charts.
 
 ---
-*Bu proje, küçük işletmelerin dijital finansal dönüşümünü sağlamak amacıyla geliştirilmiştir.*
+
+### 👨‍💻 Developer
+**Kemal** *Software Development Student & Cybersecurity Aspirant*
+
+---
+*Developed to empower the digital financial transformation of small enterprises.*
