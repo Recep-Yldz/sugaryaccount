@@ -53,7 +53,7 @@ Proje geliştirilirken profesyonel siber güvenlik standartları göz önünde b
 ---
 
 ### 👨‍💻 Geliştirici
-**Kemal** *Software Development Student & Cybersecurity Aspirant*
+**Recep** *Software Development Student & Cybersecurity Aspirant*
 
 ---
 *Bu proje, küçük işletmelerin dijital finansal dönüşümünü sağlamak amacıyla geliştirilmiştir.*
