@@ -2,7 +2,7 @@
 
 [![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)](https://flutter.dev)
 [![Gemini AI](https://img.shields.io/badge/Gemini%20AI-8E75B2.svg?style=for-the-badge&logo=google-gemini&logoColor=white)](https://deepmind.google/technologies/gemini/)
-[![Download APK](https://img.shields.io/badge/Download-APK-green?style=for-the-badge&logo=android&logoColor=white)](BURAYA_APK_LINKINI_YAPISTIR)
+[![Download APK](https://img.shields.io/badge/Download-APK-green?style=for-the-badge&logo=android&logoColor=white)](https://drive.google.com/file/d/128m42AVE3QL5-tljPpaE-hoTeI0uJL-6/view?usp=sharing)
 
 **Sugar Finance** is an "Algorithmic Accounting" and profit analysis engine designed to solve financial complexity for sole proprietorships and small businesses. Powered by **Google Gemini AI**.
 
